@@ -1,4 +1,4 @@
 # progufrj
 
-# Computação I (Python)
-# http://dcc.ufrj.br/~pedro/
+Computação I (Python)
+http://dcc.ufrj.br/~pedro/
