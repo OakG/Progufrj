@@ -1,3 +1,3 @@
-##progufrj
-##Computação I (Python)
-##http://dcc.ufrj.br/~pedro/
+#progufrj
+#Computação I (Python)
+#http://dcc.ufrj.br/~pedro/
