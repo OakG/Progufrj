@@ -5,7 +5,7 @@
 import fileinput
 
 contador = 0
-for s in fileinput.input("Palavras.txt"):
+for s in fileinput.input("aux/Palavras.txt"):
     contador = contador + 1
 print "Existem", contador, "palavras no arquivo Palavras.txt\n"
 
@@ -19,7 +19,7 @@ import fileinput
 maiorp = ''  # 'Maior palavra'
 maioresp = '' # 'Maiores palavras'
 
-for i in fileinput.input('Palavras.txt'): # Loop para encontrar a maior palavra
+for i in fileinput.input('aux/Palavras.txt'): # Loop para encontrar a maior palavra
     if len(str(i)[0:-1]) > len(maiorp):
            maiorp = str(i)[0:-1]    # NOTA: pequeno corte na string i pois esta possui o charactere
                                     # especial para quebra de linha "\n" em str(i)[-1]
