@@ -38,13 +38,13 @@ print "Quantas vezes você ganharia se tivesse jogado em TODOS os sorteios da Me
 invalido = True
 
 while invalido:
-    d1, d2, d3, d4, d5, d6 = input("Entre as 6 dezenas, separadas por virgulas. As dezenas também devem ser destintas:")
+    d1, d2, d3, d4, d5, d6 = input("Entre as 6 dezenas, separadas por virgulas. As dezenas também devem ser distintas:")
     if d1 == d2 or d1 == d3 or d1 == d4 or d1 == d5 or d1 == d6 \
                 or d2 == d3 or d2 == d4 or d2 == d5 or d2 == d6 \
                 or d3 == d4 or d3 == d5 or d3 == d6             \
                 or d4 == d5 or d4 == d6                         \
                 or d5 == d6:
-        print "As dezenas devem ser destintas!"
+        print "As dezenas devem ser distintas!"
         invalido = True
     else:
         invalido = False
