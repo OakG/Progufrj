@@ -27,7 +27,7 @@ print 'SomaInvQuadradosSA(10)     = %f' % SomaInvQuadradosSA(10)
 print '\n'
 print 'SomaInvQuadradosSA(500)    = %f' % SomaInvQuadradosSA(500)
 print 'SomaInvQuadradosSA(10000)  = %f' % SomaInvQuadradosSA(10000)
-print 'SomaInvQuadradosSA(100000) = %f' % SomaInvQuadradosSA(400000)
+print 'SomaInvQuadradosSA(100000) = %f' % SomaInvQuadradosSA(100000)
 print '\n'
 
 ##
