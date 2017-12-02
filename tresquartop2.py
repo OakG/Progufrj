@@ -9,14 +9,13 @@ def XPTO(S):
 
 
 def Beto():
-    ALFA = 'ABCDEFGHIJKLMNOPQRSTUVXYZ'
-    alfa = 'abcdefghijklmnopqrstuvxyz'
+    ALFA = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
+    alfa = 'abcdefghijklmnopqrstuvwxyz'
     CASE = random.randint(0,1)
     if CASE:
-        return ALFA[random.randint(0,24)]
+        return ALFA[random.randint(0,25)]
     else:
-        return alfa[random.randint(0,24)]
-# Merda de W.
+        return alfa[random.randint(0,25)]
 
 
 import fileinput
@@ -25,5 +24,3 @@ for S in fileinput.input("aux/Palavras.txt"):
     if len(S) > tam:
         tam = len(S)
 print tam
-    
-
