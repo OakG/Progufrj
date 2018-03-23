@@ -122,8 +122,6 @@ print '\n'
 
 ###
 # Exemplo 04: Fatorial de N
-# Aluno: Marcelo Carvalho Garcia
-# DRE: 117251003
 ###################################
 print "|| EXEMPLO 4 ||"
 def Fatorial(N):
